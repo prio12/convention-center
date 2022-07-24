@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+
+body {
+    background-color: #FFDEAD;
+    font-family: 'Roboto', sans-serif;
+}
+
 
 @media  only screen and (max-width:576px) {
     .carousel-item  img {
@@ -20,6 +27,7 @@
     
 }
 
+
 .carousel-section {
     margin-top: 50px;
     margin-bottom: 100px;
@@ -38,4 +46,25 @@
 
 .choose-plan {
     text-decoration: none;
+    color: red;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 80px;
+    margin-top: 100px;
+}
+/* 
+.copyright {
+    padding-top:50px ;
+} */
+
+.footer-container {
+    display: flex;
+    justify-content:space-between;
+}
+.get-app img {
+    width: 100px;
+    height: 75px;
 }
