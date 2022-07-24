@@ -1,3 +1,4 @@
+
 @media  only screen and (max-width:576px) {
     .carousel-item  img {
         height: 80vh;
@@ -8,7 +9,33 @@
     .br {
         display: none;
     }
+    /* .package-info {
+        margin-top: 10px;
+    } */
+    .banner-section {
+        text-align: center;
+        
+    }
     
     
 }
 
+.carousel-section {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* -------------------------arrow-sign */
+
+.fa-solid {
+    margin-left: 5px;
+    
+}
+
+/* .package-discription {
+    margin-top: 100px;
+} */
+
+.choose-plan {
+    text-decoration: none;
+}
